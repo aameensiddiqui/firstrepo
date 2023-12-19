@@ -15,12 +15,12 @@ public class Emp extends Person
 			this.empid=empid;
 			this.salary=salary;
 		}
-//		public void display()
-//		{
-//			super.display();
-//			System.out.println("\nEMPLOYEE: "+empid+"\nSALARY: "+salary);
-//			System.out.println("*************************************************************************");
-//		}
+		public void display()
+		{
+			super.display();
+			System.out.println("\nEMPLOYEE: "+empid+"\nSALARY: "+salary);
+			System.out.println("*************************************************************************");
+		}
 		public String toString()
 		{
 			return super.toString()+"\nEMPLOYEE: "+empid+"\nSALARY: "+salary;
@@ -33,4 +33,5 @@ public class Emp extends Person
 		
 
 	}
+
 
