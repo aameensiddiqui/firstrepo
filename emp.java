@@ -27,7 +27,7 @@ public class Emp extends Person
 		}
 		public double calSalary()
 		{
-			double gross_salary = salary;
+			double gross_salary = salary*salary;
 			return gross_salary;
 		}
 		
